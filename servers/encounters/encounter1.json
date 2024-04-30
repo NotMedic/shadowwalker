@@ -1,0 +1,77 @@
+{
+    "name": "Chapter 1 - Brain Dead",
+    "chapter": 1,
+    "intro_qrcode": "https://www.shadowwalker.org/9df0113a.html",
+    "summary" : "Break In\nLook for Jeff.\nFind shit.\n\nYou In?",
+    "phases": [
+        {
+            "name": "Phase 1 - The Door",
+            "enemies": [
+                {
+                    "data": {
+                        "nm": "the door",
+                        "hp": 30,
+                        "ac": 8,
+                        "ny": 0,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [1,6],
+                        "vulnerableto": ["Hack"]
+                    }
+                }
+            ],
+            "reward": {
+                "xp": 100,
+                "ny": 100
+            },
+            "status": "You made it through the door. Things look amiss. You hear footsteps. Two shadows appear in the doorway. They're here for the deck."
+        },
+        {
+            "name": "Phase 2 - Hack the Deck, Fight the Thugs",
+            "enemies": [
+                {
+                    "data": {
+                        "nm": "Thug 1",
+                        "hp": 100,
+                        "ac": 10,
+                        "ny": 25,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [1,6],
+                        "vulnerableto": ["Attack", "Magic"]
+                    }
+                },
+                {
+                    "data": {
+                        "nm": "Thug 2",
+                        "hp": 100,
+                        "ac": 10,
+                        "ny": 25,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [1,6],
+                        "vulnerableto": ["Attack", "Magic"]
+                    }
+                },
+                {
+                    "data": {
+                        "nm": "Deck",
+                        "hp": 50,
+                        "ac": 6,
+                        "ny": 25,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [1,4],
+                        "vulnerableto": ["Hack"]
+                    }
+                }
+            ],
+            "reward": {
+                "xp": 100,
+                "ny": 100
+            },
+            "status": "One of the thugs throws Jeff's meatbag over his shoulder and runs. You crack the deck and are staring at Jeff's notes and messages."
+        }
+    ],
+    "outtro_qrcode": "https://www.shadowwalker.org/4978fc5a.html"
+}

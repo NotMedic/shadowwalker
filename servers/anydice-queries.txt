@@ -1,0 +1,20 @@
+#anydice.com queries.
+
+MISS: 0
+HIT: 1
+CRITICALHIT: 2
+
+function: attack ROLL:n with DAMAGE:n vs DEFENSE:n  {
+ if ROLL = 20 {
+    result: CRITICALHIT * DAMAGE 
+ }
+ else if ROLL >= DEFENSE { 
+    result: HIT * DAMAGE
+ }
+ else {
+    result: MISS
+ }
+}
+
+
+output [attack 4d6 with 6d6 vs 10] named "DAMAGE"

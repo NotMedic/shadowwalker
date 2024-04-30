@@ -1,0 +1,31 @@
+{
+    "name": "Chapter 5 -\nCrashing the Glass Ceiling.",
+    "chapter": 5,
+    "intro_qrcode": "https://www.shadowwalker.org/9cd19cef.html",
+    "summary" : "Executive.\nExercise.\nExterminate.\nYou In?",
+    "phases": [
+        {
+            "name": "Phase 1 - Shin Yaruyasu",
+            "enemies": [
+                {
+                    "data": {
+                        "nm": "Shin",
+                        "hp": 200,
+                        "ac": 12,
+                        "ny": 250,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [2,12],
+                        "vulnerableto": ["Attack", "Magic", "Hack"]
+                    }
+                }
+            ],
+            "reward": {
+                "ny": 5000,
+                "xp": 500
+            },
+            "status": "Shin Yaruyasu lies on the floor, but computers do not lie."
+        }
+    ],
+    "outtro_qrcode": "https://www.shadowwalker.org/1d293cec.html"
+}

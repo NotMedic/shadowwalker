@@ -1,0 +1,30 @@
+{
+    "name": "Chapter 4 -\nThat Cat Has Claws.",
+    "chapter": 4,
+    "intro_qrcode": "https://www.shadowwalker.org/d7ff6d4c.html",
+    "summary" : "Meow, Motherfucker.\nYou In?",
+    "phases": [
+        {
+            "name": "Phase 1 - Molly",
+            "enemies": [
+                {
+                    "data": {
+                        "nm": "Molly",
+                        "hp": 120,
+                        "ac": 14,
+                        "ny": 250,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [1,8],
+                        "vulnerableto": ["Attack", "Magic"]
+                    }
+                }
+            ],
+            "reward": {
+                "xp": 400
+            },
+            "status": "You search Molly, paying attention to her claws, and notice something written on her hand."
+        }
+    ],
+    "outtro_qrcode": "https://www.shadowwalker.org/9cd19cef.html"
+}

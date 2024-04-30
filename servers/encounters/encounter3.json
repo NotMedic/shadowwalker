@@ -1,0 +1,53 @@
+{
+    "name": "Chapter 3 - That Johnson's a Dick",
+    "chapter": 3,
+    "intro_qrcode": "https://www.shadowwalker.org/7dff8021.html",
+    "summary" : "Defeat the ICE\nFind the Technomancer\nDig around.\nYou In?",
+    "phases": [
+        {
+            "name": "Phase 1 - The ICE",
+            "enemies": [
+                {
+                    "data": {
+                        "nm": "The ICE",
+                        "hp": 40,
+                        "ac": 7,
+                        "ny": 100,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [1,6],
+                        "vulnerableto": ["Hack"]
+                    }
+                }
+            ],
+            "reward": {
+                "xp": 100,
+                "ny": 100
+            },
+            "status": "Those that passed the ICE survived. Everyone else? At least they don't have to fight the Technomancer."
+        },
+        {
+            "name": "Phase 2 - Fight the Technomancer",
+            "enemies": [
+                {
+                    "data": {
+                        "nm": "Technomancer",
+                        "hp": 120,
+                        "ac": 14,
+                        "ny": 120,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [1,10],
+                        "vulnerableto": ["Attack", "Magic"]
+                    }
+                }
+            ],
+            "reward": {
+                "xp": 300,
+                "ny": 300
+            },
+            "status": "The Technomancer dropped a note on MCT letterhead. Something about keeping you away from the AI. What could it mean?"
+        }
+    ],
+    "outtro_qrcode": "https://www.shadowwalker.org/d7ff6d4c.html"
+}

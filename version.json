@@ -1,0 +1,4 @@
+{
+  "version" : 1,
+  "contents" : ["boot.py","main.py","cointoss.py","tarot.py","updater.py"]
+}

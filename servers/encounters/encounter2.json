@@ -1,0 +1,65 @@
+{
+    "name": "Chapter 2 -\nIt was supposed to be easy.",
+    "chapter": 2,
+    "intro_qrcode": "https://www.shadowwalker.org/4978fc5a.html",
+    "summary" : "Get the Card.\nTake care of the Mercs.\nYou in?",
+    "phases": [
+        {
+            "name": "Phase 1 - The Mercs",
+            "enemies": [
+                {
+                    "data": {
+                        "nm": "Merc 1",
+                        "hp": 100,
+                        "ac": 12,
+                        "ny": 50,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [1,10],
+                        "vulnerableto": ["Attack", "Magic"]
+                    }
+                },
+                {
+                    "data": {
+                        "nm": "Merc 2",
+                        "hp": 100,
+                        "ac": 12,
+                        "ny": 50,
+                        "xp": 100,
+                        "attackdie": [1,20],
+                        "damagedie": [1,10],
+                        "vulnerableto": ["Attack", "Magic"]
+                    }
+                }
+            ],
+            "allies": [
+                {
+                    "data": {
+                        "nm": "Ratz",
+                        "hp": 100,
+                        "ac": 10,
+                        "attackdie": [1,20],
+                        "damagedie": [1,6],
+                        "sklz": ["Attack"]
+                    }
+                },                
+                {
+                    "data": {
+                        "nm": "The Cook",
+                        "hp": 100,
+                        "ac": 10,
+                        "attackdie": [1,20],
+                        "damagedie": [1,6],
+                        "sklz": ["Attack"]
+                    }
+                }
+            ],
+            "reward": {
+                "xp": 200,
+                "ny": 200
+            },
+            "status": "You've finished off the mercs, found some cash in their pockets, and wonder who they were working for."
+        }
+    ],
+    "outtro_qrcode": "https://www.shadowwalker.org/7dff8021.html"
+}
